@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Client-Side Image Map Example</title>
+</head>
+<body>
+
+<h1>Client-Side Image Map Example</h1>
+
+<p>Click on the image to see related information:</p>
+
+<!-- Define the image and map -->
+<img src="arun.jpg" usemap="#examplemap">
+
+<map name="examplemap">
+	<!-- Define the hotspots and related information -->
+	<area shape="rect" coords="0,0,100,100" href="page1.html" alt="Hotspot 1">
+	<area shape="circle" coords="200,200,50" href="page2.html" alt="Hotspot 2">
+	<area shape="poly" coords="300,300,400,300,350,350" href="page3.html" alt="Hotspot 3">
+</map>
+
+</body>
+</html>

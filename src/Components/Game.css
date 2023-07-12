@@ -1,0 +1,118 @@
+body{
+    background: #262163;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.app-container{
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    Left: 50%;
+    top: 10%;
+    margin-left: -400px;
+}
+.panel{
+    position: absolute;
+    background-color: #cf6385;
+    border: 8px solid #8a0b73;
+    -webkit-box-shadow: 7px 5px 15px 3px rgba(0,0,0,10);
+    box-shadow: 7px 5px 15px 3px rgba(0, 0, 0, 0.9);
+    z-index: 1;
+}
+.gamecircle{
+        width:100px;
+        height:100px;
+        margin: 10px;
+        border-radius:50%;
+        border: 5px solid black;
+}
+.gameboard{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr; 
+    grid-template-rows:1fr 1fr 1fr 1fr; 
+    padding: 20px; 
+    width:500px;
+    position: absolute;
+    left:50%;
+    margin-left : -250px;
+    top: 20%;
+    background-color:#ff569c;
+    border: 8px solid #8d367d;
+border-radius: 8%;
+-webkit-box-shadow: 7px 5px 15px 3px rgba(0,0,0,10);
+ box-shadow: 7px 5px 15px 3px rgba(0, 0, 0, 0.9);
+ 
+}
+.header{
+    left: 50%;
+    top: 90px;
+    height: 80px;
+    width: 300px;
+    margin-left: -120px;
+}
+.header-text{
+font-size: 30px;
+font-weight: bold;
+width: 220px;
+margin: 0;
+position: absolute;
+top: 50%;
+Left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%,-50%);
+}
+.player_0{
+    background-color: white;
+}
+.player_1{
+    background-color: red;
+}
+.player_2{
+    background-color: blue;
+}
+.footer{
+display: grid;
+grid-template-columns: 1fr 1fr;
+flex-direction: column;
+left :50%;
+top: 900px;
+height: 80px;
+width: 300px;
+margin-left: 292px;
+margin-top: 720px;
+}
+.footer button{
+left: 50%;
+top: 60%;
+margin-Left: 5px;
+margin-top: 30px;
+width: 140px;
+height: 50px;
+background-color:  lightblue;
+font-size: 20px;
+-webkit-box-shadow:3px 5px 10px 2px rgba(0,0,0,0.9);
+box-shadow: 3px 5px 10px 2px rgba(0,0,0,0.9);
+border:5px solid chocolate;
+font-weight: bold;
+cursor: pointer;
+}
+.footer button:hover{
+    background-color: chocolate;
+}
+/* .credit{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100vw;
+} */
+.new h1{
+    display: flex;
+    color: red;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
